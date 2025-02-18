@@ -1,0 +1,67 @@
+body {
+	--fsAddBuffer: 22px;
+}
+[id='videezy_download_popup'],
+[id='videezy_btf_leaderboard_page'],
+[id='videezy_downloads_right_siderail_1'],
+[id='videezy_btf_leaderboard_home'],
+[id='videezy_search_left'],
+[id='videezy_atf_leaderboard'],
+[id='videezy_downloads_right_siderail_2'],
+[id='videezy_standalone-video'] {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: calc(var(--height) + var(--fsAddBuffer));
+	width: 100%;
+}
+[id='videezy_atf_leaderboard'] {
+		--height: 50px;
+}
+[id='videezy_btf_leaderboard_home'] {
+		--height: 280px;
+}
+[id='videezy_btf_leaderboard_page'] {
+		--height: 280px;
+}
+[id='videezy_downloads_right_siderail_1'] {
+		--height: 250px;
+}
+[id='videezy_standalone-video'] {
+		--height: 280px;
+}
+@media only screen and (min-width: 768px) {
+	[id='videezy_atf_leaderboard'] {
+		--height: 90px;
+	}
+	[id='videezy_btf_leaderboard_home'] {
+		--height: 250px;
+	}
+	[id='videezy_btf_leaderboard_page'] {
+		--height: 250px;
+	}
+	[id='videezy_download_popup'] {
+		--height: 280px;
+	}
+	[id='videezy_downloads_right_siderail_1'] {
+		--height: 250px;
+	}
+	[id='videezy_downloads_right_siderail_2'] {
+		--height: 250px;
+	}
+	[id='videezy_search_left'] {
+		--height: 600px;
+	}
+	[id='videezy_standalone-video'] {
+		--height: 280px;
+	}
+}
+@media only screen and (min-width: 1010px) {
+	[id='videezy_btf_leaderboard_home'] {
+		--height: 250px;
+	}
+	[id='videezy_btf_leaderboard_page'] {
+		--height: 250px;
+	}
+}
