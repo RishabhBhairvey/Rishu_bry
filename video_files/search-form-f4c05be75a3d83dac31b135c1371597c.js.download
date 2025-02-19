@@ -1,5 +1,0 @@
-//////////////////////////////////////////////////
-// SEARCH FILTERS CODE TO BE APPLIED EVERYWHERE //
-//////////////////////////////////////////////////
-// return the current filter state
-var fetchSearchFiltersState=function(){return sessionStorage.getItem("filter-state")===null?{currentState:[]}:JSON.parse(sessionStorage.getItem("filter-state"))};$('[data-action="new-search"]').on("submit",function(){var e=fetchSearchFiltersState();return $(e.currentState).each(function(e,t){$("<input />").attr("type","hidden").attr("name",t).attr("value","true").appendTo('[data-action="new-search"]')}),$(this).attr("action").split("/").length<3&&$(this).attr("action",$(this).attr("action")+"/"+$(this).find(".ez-search-form__input").val().replace(/ /g,"-")),!0});
