@@ -22,3 +22,22 @@
     list-style:;
     margin: 5px;
 }
+#header nav ul li{
+    list-style:none;
+    
+}
+#header nav ul li a{
+    text-decoration:none;
+    font-size: large;
+    color: black;
+
+}
+#header button{
+padding: 15px ;
+border-radius: 40px;
+background-color:orangered;
+font-style:italic;
+
+
+
+}
