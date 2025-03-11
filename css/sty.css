@@ -1,0 +1,9 @@
+.ins{
+background-color: rgb(42, 128, 165);
+height: 300px;
+width: 500px;
+box-shadow: 3px 4px 12px 6px black;
+border-top-left-radius: 60px;
+display: flex;
+}
+
