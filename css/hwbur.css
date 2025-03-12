@@ -1,10 +1,11 @@
-.ger {
-    background-color: palevioletred;
+.ri{
+    /* background-color: palevioletred; */
+    /* margin-left: 22cm;     */
     display: flex;
-    justify-content: right;
+    justify-content: space-around;
+    align-items: center;
+    background-image: ;
+
     
-
-
-
 }
-
+ 
