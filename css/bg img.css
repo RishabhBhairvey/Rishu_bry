@@ -1,0 +1,22 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+.b{
+background-image: url(nature.jpg);
+background-size: auto;
+width: 600px;
+height: 700px;
+}
+.img{
+display: flex;
+flex-direction: column;
+justify-content: end;
+width: 400px;
+height: 550px;
+color: beige;
+line-height: 60px;
+margin-left: 50px;
+
+}
