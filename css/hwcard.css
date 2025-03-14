@@ -1,0 +1,32 @@
+
+*{
+margin: 0px;
+padding: 0px;
+/* background-color: blue; */
+box-sizing: border-box;
+display: flex;
+padding-left: 20px;
+
+width: 250px; 
+height: 150px;
+}
+body{
+    margin-left: 20px; */
+     padding-left: 30px; */
+     /* padding-top: 10px; */ */
+
+ }
+.open{
+width: 200px;
+height: 200px;
+display: flex;
+justify-content: center; */
+margin-left: 10px;
+text-align: center;
+
+}
+.words{
+display: flex;
+justify-content: center;
+
+}
