@@ -8,10 +8,6 @@ text-size-adjust: 3px;
 .body{
     margin-left:22px ;
     padding-left: 20px;
-
-
-
-
 }
 .open{
     /* width: 400px; */
@@ -22,8 +18,10 @@ text-size-adjust: 3px;
     height: 200px;
     border-top-left-radius: 60px;
     border-bottom-left-radius: 60px;
-    /* display: flex;
-    justify-content:end ; */
+    border-bottom-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+     display: flex;
+    justify-content:end ; 
 }
 .img{
 display: flex;
