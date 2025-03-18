@@ -1,0 +1,21 @@
+.{
+    margin:0px ;
+    padding: 0px;
+
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+. img{
+    height: 50px;
+    width: 50px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+
+
+
+
+}
