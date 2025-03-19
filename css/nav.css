@@ -1,21 +1,33 @@
 .{
     margin:0px ;
     padding: 0px;
-
+    box-sizing: border-box;
+    font-family: 'Arial',sans-serif;
+    /* background-color: black; */
 }
-.header{
+.navi{
+    width: 100%;
+    background-color:black;
+    color: wheat;
+    padding: 20px 80px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
-. img{
-    height: 50px;
-    width: 50px;
-    border-radius: 60px;
+.navi .logo h1{
+font-size: 40px;
+color: blanchedalmond;
+}
+.navi ul{
+    list-style: none;
+    gap: 30px;
     display: flex;
-    justify-content: center;
-
-
-
-
+}
+.navi ul li{
+position: relative;
+}
+.navi ul li a{
+text-decoration: none;
+font-size: 20px;
+color: cornsilk;
 }
