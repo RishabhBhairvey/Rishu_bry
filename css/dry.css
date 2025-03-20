@@ -1,0 +1,21 @@
+ .ri{
+    color: aqua;
+    font-family: "Libre Baskerville", serif;
+}
+.shu{
+    color: blue;
+    font-family: "Libre Baskerville", serif;
+} 
+.papa{
+    background-color: black;
+    height: 400px;
+    margin-top: 200px ;
+}
+.beta{
+    background-color: seagreen;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 40px;
+    left: 50px;
+}

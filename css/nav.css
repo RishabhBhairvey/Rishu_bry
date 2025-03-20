@@ -4,15 +4,18 @@
     box-sizing: border-box;
     font-family: 'Arial',sans-serif;
     /* background-color: black; */
+    border-radius: ;
 }
 .navi{
-    width: 100%;
+    width: 100bh;
     background-color:black;
     color: wheat;
     padding: 20px 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0px;
 }
 .navi .logo h1{
 font-size: 40px;
@@ -20,7 +23,7 @@ color: blanchedalmond;
 }
 .navi ul{
     list-style: none;
-    gap: 30px;
+    gap: 40px;
     display: flex;
 }
 .navi ul li{
