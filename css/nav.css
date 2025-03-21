@@ -3,9 +3,13 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Arial',sans-serif;
-    /* background-color: black; */
+    background-color: black;
     border-radius: ;
 }
+.full{ 
+     position: sticky; 
+     top: 0px;  
+} 
 .navi{
     width: 100bh;
     background-color:black;
@@ -14,12 +18,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
-    top: 0px;
+    height: 40px;
+   
 }
 .navi .logo h1{
 font-size: 40px;
 color: blanchedalmond;
+
 }
 .navi ul{
     list-style: none;
@@ -33,4 +38,10 @@ position: relative;
 text-decoration: none;
 font-size: 20px;
 color: cornsilk;
+}
+.img{
+    height: 50px;
+    width: 50px; 
+     position: fixed; 
+     left: 600px; 
 }

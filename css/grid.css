@@ -1,0 +1,12 @@
+.ri{
+    background-color: aqua;
+    height: 100vh;
+    display: grid;
+    grid-template-columns:200px 300px 100px 400px auto ;
+}
+.a,.b,.c,.d,.e{
+    background-color: black;
+    border: 1px solid white;
+    font-size: 30px;
+    color: bisque;
+}
