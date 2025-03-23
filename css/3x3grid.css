@@ -15,21 +15,32 @@ margin: 5px;
     grid-column-start: 1;
     grid-column-end: 4;
     background: orange;
+    color: black;
     
 }
 .p2{
     grid-row-start: 2;
     grid-row-end: 4;
+    color:red;
+}
+.p3{
+    color: red;
+}
+.p4{
+    color: red;
 }
 .p5{
     grid-column-start: 2;
     grid-column-end: 4;
+    color: red;
 
 }
 .p6{
     grid-column-start: 1;
     grid-column-end: 4;
     background: green;
+    color:black ;
+
 
 
 }
