@@ -1,0 +1,4 @@
+.tab tr:nth-child(even){
+    background-color: pink;
+}
+.tab tr

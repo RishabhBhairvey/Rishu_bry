@@ -19,6 +19,7 @@
     justify-content: space-between;
     align-items: center;
     height: 40px;
+    border border-bottom-left-radius: 50px;
    
 }
 .navi .logo h1{
