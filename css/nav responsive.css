@@ -1,0 +1,27 @@
+.nav{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.nav label{
+    display: none;
+}
+#check:checked~.nav .ul{
+    display: block;
+}
+@media screen and (max-width: 700px){
+    .nav label{
+        display:block;
+    }
+    .nav .ul{
+        display: none;
+    }
+    
+}

@@ -46,3 +46,10 @@ color: cornsilk;
      position: fixed; 
      left: 600px; 
 }
+.gif img{
+    width: 100vh;
+}
+.gif{
+    width: 100vh;
+    height: 100vh;
+}
