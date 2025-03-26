@@ -25,6 +25,7 @@
 .navi .logo h1{
 font-size: 40px;
 color: blanchedalmond;
+margin-right:120px ;
 
 }
 .navi ul{
@@ -37,8 +38,11 @@ position: relative;
 }
 .navi ul li a{
 text-decoration: none;
-font-size: 20px;
-color: cornsilk;
+font-size: 15px;
+color: goldenrod;
+display: flex;
+justify-content: space-between;
+gap: 10px;
 }
 .img{
     height: 50px;
@@ -46,10 +50,16 @@ color: cornsilk;
      position: fixed; 
      left: 600px; 
 }
-.gif img{
-    width: 100vh;
-}
 .gif{
-    width: 100vh;
-    height: 100vh;
+    width: 203vh;
+    height: 20vh;
+}
+.but{
+    background-color: pink;
+}
+.add .a{
+    font-size: 15px;
+    color: wheat;
+     display: flex; 
+    justify-content: space-between;
 }

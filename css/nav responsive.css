@@ -9,6 +9,8 @@
     display: flex;
     gap: 30px;
     list-style: none;
+    background-color: gray;
+    border: solid;
 }
 .nav label{
     display: none;
