@@ -22,10 +22,12 @@
     border border-bottom-left-radius: 50px;
    
 }
-.navi .logo h1{
+.navi .logo img{
 font-size: 40px;
-color: blanchedalmond;
+color: goldenrod;
 margin-right:120px ;
+height: 75px;
+width: 80px;
 
 }
 .navi ul{
@@ -55,7 +57,13 @@ gap: 10px;
     height: 20vh;
 }
 .but{
-    background-color: pink;
+    /* background-color: goldenrod; */
+}
+.navi .adda a{
+    gap: 10px;
+    font-size: 15px;
+    color: wheat;
+
 }
 .add .a{
     font-size: 15px;
