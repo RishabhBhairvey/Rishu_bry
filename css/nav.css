@@ -3,12 +3,16 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Arial',sans-serif;
-    background-color: black;
+    background-color:pink;
     border-radius: ;
+}
+.body{
+    background-color: pink;
 }
 .full{ 
      position: sticky; 
-     top: 0px;  
+     top: 0px;
+       
 } 
 .navi{
     width: 100bh;
@@ -46,16 +50,14 @@ display: flex;
 justify-content: space-between;
 gap: 10px;
 }
-.img{
-    height: 50px;
-    width: 50px; 
-     position: fixed; 
-     left: 600px; 
+ 
+     
+
 }
-.gif{
-    width: 203vh;
-    height: 20vh;
-}
+/* .gif{ */
+    /* width: 203vh; */
+    /* height: 20vh; */
+/* } */
 .but{
     /* background-color: goldenrod; */
 }
@@ -71,9 +73,9 @@ gap: 10px;
      display: flex; 
     justify-content: space-between;
 }
-@media screen and {max-width: 700px;
-    body{
-        background-color: black;
-    }
-    
+.img{
+    height: 60px;
+    width: 60px;
 }
+
+
