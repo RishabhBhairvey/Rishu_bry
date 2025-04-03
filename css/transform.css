@@ -4,15 +4,46 @@ padding: 0px;
 box-sizing: border-box;
 
 }
-.bap{
+#bapu{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100%;
+    border: 1px solid black;
 
 }
-.beta{
+#bapu .betu{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    background-color: brown;
+    /* using animation from here */
+    animation: changecolor 5s ease infinite;
+}
+@keyframes changecolor{
+    0%{
+        background-color: hotpink;
+        transform: translate(0px,0px);
+    }
+    25%{
+        background-color: aqua;
+        transform: translate(200px,0px);
+    }
+    50%{
+        background-color: blueviolet;
+        transform: translate(200px,200px);
+    }
+    75%{
+        background-color: chartreuse;
+        transform: translate(0px,200px);
+    }
+    100%{
+        background-color: sienna;
+        transform: translate(0px,0px);
+    }
 
 
-    
+
+
 }
