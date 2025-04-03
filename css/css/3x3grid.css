@@ -1,0 +1,46 @@
+.block{
+    /* background-color: blueviolet; */
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+}
+.p1,.p2,.p3,.p4,.p5,.p6{
+border:3px solid black;
+font-size: 50px;
+color: burlywood;
+margin: 5px;
+}
+.p1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background: orange;
+    color: black;
+    
+}
+.p2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    color:red;
+}
+.p3{
+    color: red;
+}
+.p4{
+    color: red;
+}
+.p5{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    color: red;
+
+}
+.p6{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background: green;
+    color:black ;
+
+
+
+}

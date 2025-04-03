@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(10,300px);
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.child{
+    width: 300px;
+    height: 300px;
+    border:1px solid hotpink;
+}
+.child img{
+    width: 300px;
+    height: 300px;
+}
+.cont img{
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

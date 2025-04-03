@@ -1,0 +1,81 @@
+.{
+    margin:0px ;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Arial',sans-serif;
+    background-color:pink;
+    border-radius: ;
+}
+.body{
+    background-color: pink;
+}
+.full{ 
+     position: sticky; 
+     top: 0px;
+       
+} 
+.navi{
+    width: 100bh;
+    background-color:black;
+    color: wheat;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    border border-bottom-left-radius: 50px;
+   
+}
+.navi .logo img{
+font-size: 40px;
+color: goldenrod;
+margin-right:120px ;
+height: 75px;
+width: 80px;
+
+}
+.navi ul{
+    list-style: none;
+    gap: 40px;
+    display: flex;
+}
+.navi ul li{
+position: relative;
+}
+.navi ul li a{
+text-decoration: none;
+font-size: 15px;
+color: goldenrod;
+display: flex;
+justify-content: space-between;
+gap: 10px;
+}
+ 
+     
+
+}
+/* .gif{ */
+    /* width: 203vh; */
+    /* height: 20vh; */
+/* } */
+.but{
+    /* background-color: goldenrod; */
+}
+.navi .adda a{
+    gap: 10px;
+    font-size: 15px;
+    color: wheat;
+
+}
+.add .a{
+    font-size: 15px;
+    color: wheat;
+     display: flex; 
+    justify-content: space-between;
+}
+.img{
+    height: 60px;
+    width: 60px;
+}
+
+

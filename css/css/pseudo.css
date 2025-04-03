@@ -1,0 +1,24 @@
+.tab tr:nth-child(even){
+    background-color: pink;
+}
+.jd::first-letter{
+    font-size: 50px;
+    color: black;
+}
+.jd::first-line{
+    font-style:bold;
+}
+.name::after{
+    content: " Depp";
+    color: brown;
+}
+.name::before{
+    content: "Mr. ";
+    color: blue;
+}
+.input::placeholder{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 3px;
+}
