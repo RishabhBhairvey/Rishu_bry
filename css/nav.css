@@ -74,8 +74,13 @@ gap: 10px;
     justify-content: space-between;
 }
 .img{
-    height: 60px;
-    width: 60px;
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: auto;
+    background-image: none;
+    
 }
 
 
