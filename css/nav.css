@@ -72,10 +72,10 @@ color: white;
     justify-content: space-between;
 }
 .sec{
-background-image: url(travel.webp);    
+background-image: url(city\ nig.mp4);    
 background-size: auto;
-width: 300px;
-height: 350px;
+width: 70%;
+height: 70%;
 margin-top:50px ;
 margin-left:50px ;
 border-top-left-radius: 50px;
@@ -90,8 +90,8 @@ border-top-left-radius: 50px;
     display: flex;
     flex-direction: column;
     justify-content: end;
-    width:300px ;
-    height: 300px;
+    width:70% ;
+    height: 70%;
     
     }
 
