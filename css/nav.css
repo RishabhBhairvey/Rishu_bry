@@ -71,7 +71,7 @@ color: white;
      display: flex; 
     justify-content: space-between;
 }
-.sec{
+/* .sec{ */
 background-image: url(city\ nig.mp4);    
 background-size: auto;
 width: 70%;
@@ -86,11 +86,11 @@ border-top-left-radius: 50px;
     
     
 }
-.img{
+/* .img{ */
     display: flex;
     flex-direction: column;
     justify-content: end;
-    width:70% ;
+    width:% ;
     height: 70%;
     
     }
