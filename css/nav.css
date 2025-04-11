@@ -71,27 +71,14 @@ color: white;
      display: flex; 
     justify-content: space-between;
 }
-/* .sec{ */
-background-image: url(city\ nig.mp4);    
-background-size: auto;
-width: 70%;
-height: 70%;
-margin-top:50px ;
-margin-left:50px ;
-border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    
-    
-    
-}
-/* .img{ */
+
+.img{ 
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: end;
-    width:% ;
-    height: 70%;
+    width:100% ;
+    height: 500px;
     
     }
 
