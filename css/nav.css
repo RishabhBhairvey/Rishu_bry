@@ -16,8 +16,8 @@
 } 
 .navi{
     width: 100bh;
-    /* background-color:black; */
-    color: wheat;
+    background-image : url(clouds.gif) ;
+    color:black;
     padding: 20px 80px;
     display: flex;
     justify-content: space-between;
@@ -27,8 +27,8 @@
    
 }
 .navi .logo img{
-font-size: 40px;
-color: goldenrod;
+font-size: 100px;
+color: black;
 margin-right:120px ;
 height: 75px;
 width: 80px;
@@ -39,30 +39,21 @@ width: 80px;
     gap: 40px;
     display: flex;
 }
-.navi ul li{
+.navi ul .list{
 position: relative;
 }
 .navi ul li a{
 text-decoration: none;
-font-size: 15px;
-color: goldenrod;
+font-size: 20px;
+color: black;
 display: flex;
-justify-content: space-between;
+justify-content: space-between ;
 gap: 10px;
-}
- 
-     
-.search{
-
-color: white;
-}
-.but{
-    /* background-color: goldenrod; */
 }
 .navi .adda a{
     gap: 10px;
-    font-size: 15px;
-    color: wheat;
+    font-size: 20px;
+    color: black;
 
 }
 .add .a{
@@ -76,7 +67,7 @@ color: white;
     padding: auto;
 }
 .img{ 
-    margin-bottom: 150px;
+    margin-top: 150px;
     
     display: flex;
     flex-direction: column;
@@ -96,12 +87,15 @@ color: white;
 
     }
     .bar{
-        width: 80%;
-        height: 40px;
+        width: 500px;
+        height: 50px;
         margin-bottom: 600px;
         margin-left: 500px;
         margin-right: -500px;
-        border
+        border-top-left-radius: 20px;
+        border-top-right-radius:20px ;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
     }
 
 
