@@ -16,8 +16,8 @@
 } 
 .navi{
     width: 100bh;
-    background-image : url(clouds.gif) ;
-    color:black;
+    background-color : white ;
+    color:white;
     padding: 20px 80px;
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,8 @@ width: 80px;
     gap: 40px;
     display: flex;
 }
-.navi ul .list{
+.navi .ul .list{
+color: white;    
 position: relative;
 }
 .navi ul li a{
@@ -63,12 +64,12 @@ gap: 10px;
     justify-content: space-between;
 }
 .sec{
-    margin-top: 200px;
+    margin-top: 150px;
     padding: auto;
+    /* height: 700vh; */
 }
 .img{ 
     margin-top: 150px;
-    
     display: flex;
     flex-direction: column;
     justify-content: end;
