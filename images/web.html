@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institute</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <section class="header">
+        
+        <nav>
+            LOGO
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()" id="icon"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()" id="icon"></i>
+
+        </nav>
+        <div class="text-box">
+            <h1> Best Institute</h1>
+            <p>Making website is now one of the easiest thing in the world. You
+                just need to learn HTML,CSS,<br>Javascript and you good to go
+            </p> 
+            <a href="" class="btn">Vistt Us To Know More</a>
+        </div>
+
+    </section>
+    <!-- -------js use here------ -->
+    <script>
+        var navlinks=document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right="0"
+        }
+        function hidemenu(){
+            navlinks.style.right="-200px"
+        }
+
+
+    </script>
+    <!-- ------COURSE----- -->
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Lorm ipsum dolor sit amet,consectetur adipiscing elit. </p>
+<div class="row">
+    <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>Lorem Ipsum is a placeholder text commonly used in the graphic, print, and web design industries. It is derived from a work by Cicero, specifically the line "Lorem ipsum dolor sit amet, consectetur adipiscing elit," which translates to "Pain itself is love, but it is a pain. </p>
+    </div>
+    <div class="course-col">
+        <h3>Degree</h3>
+        <p>Lorem Ipsum is a placeholder text commonly used in the graphic, print, and web design industries. It is derived from a work by Cicero, specifically the line "Lorem ipsum dolor sit amet, consectetur adipiscing elit," which translates to "Pain itself is love, but it is a pain.</p>
+    </div>
+    <div class="course-col">
+        <h3>Post Graduation</h3>
+        <p>Lorem Ipsum is a placeholder text commonly used in the graphic, print, and web design industries. It is derived from a work by Cicero, specifically the line "Lorem ipsum dolor sit amet, consectetur adipiscing elit," which translates to "Pain itself is love, but it is a pain.</p>
+    </div>
+</div>
+
+    </section>
+<!-- --------camous--------->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem Ipsum is a placeholder text commonly used in the graphic, print, and web design industries.</p>
+        
+        <div class="row">
+            <div class="campus-col">
+                <img src="building.jpg">  
+                
+                <div class="layer">
+                    <h3>BUILDING</h3>
+                </div>
+            </div>
+        </div>    
+        
+
+    </section>
+</body>
+</html>
