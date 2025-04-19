@@ -7,11 +7,38 @@
     <link rel="stylesheet" href="home.css">
 </head>
 <body>
+    
     <div class="container">
         <div class="card">
-            <div class="inner-box">
-                <div class="card-front"></div>
-                <div class="card-back"></div>
+            <div class="inner-box" id="card">
+                <div class="card-front"><h2>LOGIN</h2>
+                <form >
+                    <input type="email" class="input-box" placeholder="Your Email ID" required>
+                    <input type="password" class="input-box" placeholder="password" required>
+                    <button type="submit" class="submit-btn">submit</button>
+                    <input type="checkbox"><span>Remember Me</span>
+
+
+                </form>
+                <button type="button" class="btn" oneclick="openRegister()">I'm New Here</button>
+                <a href="">Forgot password</a>
+            </div>
+                <div class="card-back">
+                    <div class="card-front"><h2>REGISTER</h2>
+                        <form >
+                            <input type="text" class="input-box" placeholder="Your name" required>
+                            <input type="email" class="input-box" placeholder="Your Email ID" required>
+                            <input type="password" class="input-box" placeholder="password" required>
+                            <button type="submit" class="submit-btn">submit</button>
+                            <input type="checkbox"><span>Remember Me</span>
+                            
+        
+        
+                        </form>
+                        <button type="button" class="btn" oneclick="openLogin()" >I've an Account</button>
+                        <a href="">Forgot password</a>
+                        
+                </div>
             </div>
         </div>
     </div>
